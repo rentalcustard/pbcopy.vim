@@ -5,6 +5,14 @@ OS X pasteboard from Vim when running inside a program (such
 as tmux) which cannot directly interact with the pbcopy
 command.
 
+== HOW TO
+
+# Make sure 'remote login' is enabled under Sharing in
+  System Preferences
+# Yank or delete some text using normal vim commands
+# Call :PBCopy
+# Paste into your favourite OS X application
+
 == KNOWN ISSUES/TODO
 
 * Add support for pasting from the pasteboard into vim
