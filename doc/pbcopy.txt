@@ -1,0 +1,20 @@
+* pbcopy.vim * Plugin for copying to the Mac OS X pasteboard
+
+1. Commands |pbcopy-commands|
+
+============================================================
+
+                                          *pbcopy-commands*
+1. Commands~
+
+|:PBCopy|  Copy the last yanked/deleted register to the Mac
+            OS X pasteboard
+
+                                          *:PBCopy*
+:PBCopy
+          Copy the last register to the Mac OS X pasteboard.
+          This command uses ssh to localhost to perform the
+          copy (so that it will work from within tmux and 
+          possibly other programs which don't have pasteboard
+          support), so you need to make sure ssh is enabled
+          via System Preferences.
