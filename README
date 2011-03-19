@@ -13,6 +13,10 @@ command.
 # Call :PBCopy
 # Paste into your favourite OS X application
 
+# Copy from your favourite OS X application
+# Call :PBPaste
+# Put into vim as normal
+
 == KNOWN ISSUES/TODO
 
 * Add support for pasting from the pasteboard into vim
