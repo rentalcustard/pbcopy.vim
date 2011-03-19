@@ -14,7 +14,3 @@ function! s:pbpaste()
 endfunction
 
 command! -nargs=0 -bar PBPaste call s:pbpaste()
-
-map \y :yank<CR>:PBCopy<CR>
-
-map \p :PBPaste<CR>:put<CR>
