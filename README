@@ -19,9 +19,10 @@ command.
 
 == KNOWN ISSUES/TODO
 
-* This plugin doesn't work on OS X 10.5.8. See https://discussions.apple.com/message/11257647?messageID=11257647#11257647?messageID=11257647
-  for details. If you're running that version, I recommend trying https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard
-  as an alternative.
+* This plugin doesn't work on OS X 10.5.8. 
+  For details, see https://discussions.apple.com/message/11257647?messageID=11257647#11257647?messageID=11257647
+  If you're running that version, you could try https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard
+  but I have been told that even this doesn't work. Oh, the humanity!
 
 == ACKNOWLEDGEMENTS
 
