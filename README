@@ -19,7 +19,9 @@ command.
 
 == KNOWN ISSUES/TODO
 
-* Add support for pasting from the pasteboard into vim
+* This plugin doesn't work on OS X 10.5.8. See https://discussions.apple.com/message/11257647?messageID=11257647#11257647?messageID=11257647
+  for details. If you're running that version, I recommend trying https://github.com/ChrisJohnsen/tmux-MacOSX-pasteboard
+  as an alternative.
 
 == ACKNOWLEDGEMENTS
 
